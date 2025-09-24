@@ -1,10 +1,6 @@
-#mencoba menggunakan function not in /= tidak sama dengan atau tidak ada
-name = "Rivaldo Bogar"
-print(f"Hello my boss {name}")
-print(f"pencarian = {"Bogar" not in name}") # Sensitive case diperhatikan
+# untuk pengambil string pada area tertentu
+data = "Monokai Pro: Tema ini memiliki skema warna yang cerah dan enak dilihat. Versi gratisnya sudah sangat bagus, tapi ada juga versi berbayar dengan fitur tambahan."
 
-user_input = str(input("masukan nama : "))
-if user_input not in name:
-    print("belum ada dalam pendataan")
-else :
-    print("Sepertinya itu sudah ada.")
+inp1 = int(input("masukan nilai awal : "))
+inp2 = int(input("masukan nilai akhir : "))
+print(f"Result final : {data[-inp1:-inp2]}")
