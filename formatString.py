@@ -8,3 +8,7 @@ print(txt)
 txt = f"Nama saya rivaldo bogar, saya adalah seorang programmer Artificial Intelegence di indonesia,sampingan saya yaitu sebagai investor cyrpto number manipulation {age}"
 print(txt)
 print(f"Hargan : Rp.{age:.3f}") #untuk menambah berapa digit 0,dibelakang koma atau titik.dari bilangan real
+
+
+# Lakukan operasi aritmatika dengan format string langsung
+print(f" umur anda berikut : {age * 2}")
